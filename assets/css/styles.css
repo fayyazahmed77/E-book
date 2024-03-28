@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
     padding: 6px 30px;
   }
   .btn-order-blue {
-    background: #223D7C ;
+    background: #1D4195;
     color: rgb(255, 255, 255) !important;
     border-radius: 30px;
     font-size: 16px;
@@ -1453,10 +1453,10 @@ body::-webkit-scrollbar {
     padding-top: 100px;
   }
   .dblue{
-    color: #223D7C !important;
+    color: #1D4195 !important;
   }
   .dblue-bg{
-    background-color: #223D7C !important;
+    background-color: #1D4195 !important;
   }
   .h-hero{
   font-size: 100px !important;
@@ -1571,7 +1571,7 @@ body::-webkit-scrollbar {
     font-size: 18px;
   }
   .why-img{
-    width: 433px !important;
+    width: 433px;
   }
   .best-para{
     font-size: 24px;
