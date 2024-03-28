@@ -572,7 +572,98 @@ progress {
   .container-xl {
     max-width: 1140px;
   }
+  .book1{
+    position: absolute;
+    top: 346px !important;
+    left: 212px !important;
+    width: 200px !important;
+    height: 301px !important;
+    background-color: #ffbb93;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .book1 img{
+    width: 173px !important;
+    height: 271px !important;
+  }
+  .book2{
+    position: absolute;
+    top: 418px !important;
+    left: 464px !important;
+    width: 200px !important;
+    height: 301px !important;
+    background-color: #13648b;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .book2 img{
+    width: 173px !important;
+    height: 271px !important;
+  }
+  .book3{
+    position: absolute;
+    top: 445px !important;
+    right: 361px !important;
+    width: 200px !important;
+    height: 301px !important;
+    background-color: #0f1b39;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .book3 img{
+    width: 173px !important;
+    height: 271px !important;
+  }
+  .book4{
+    position: absolute;
+    top: 276px !important;
+    right: 107px !important;
+    width: 200px !important;
+    height: 301px !important;
+    background-color: #135b39;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .book4 img{
+    width: 173px !important;
+    height: 271px !important;
+  }
+  .why-img{
+    width: 456px !important;
+  }
+  .inkpot{
+    position: absolute;
+    left: 32px !important;
+    top: 63px;
+  }
+  .inkpot1{
+    z-index: -1;
+    position: absolute;
+    right: 423px !important;
+    top: 209px;
+  }
+  .footerform {
+    top: 50px;
+    right: 79px !important;
+    position: absolute;
+    width: 500px;
+    background-color: #1d4195;
+    padding: 20px;
+    border-radius: 10px;
 }
+  .h-hero{
+    font-size: 69px !important;
+    font-family: initial;
+    }
+    .h5 {
+        font-size: 20px !important;
+        color: #3A3A3A;
+        font-weight: 700;
+        display: block;
+    }
+}
+
+
 @media (min-width: 1400px) {
   .container,
   .container-lg,

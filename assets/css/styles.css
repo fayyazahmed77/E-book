@@ -1459,7 +1459,7 @@ body::-webkit-scrollbar {
     background-color: #1D4195 !important;
   }
   .h-hero{
-  font-size: 100px !important;
+  font-size: 100px;
   font-family: initial;
   }
   .p-hero{
@@ -1535,7 +1535,7 @@ body::-webkit-scrollbar {
     top: 0px;
     left: 207px;
     width: 350px;
-    height: 534px;
+    height: 586px;
     background-color: #f5f5f5ab;
   }
   .bg-l{
@@ -1571,7 +1571,7 @@ body::-webkit-scrollbar {
     font-size: 18px;
   }
   .why-img{
-    width: 433px;
+    width: 500px;
   }
   .best-para{
     font-size: 24px;
@@ -1645,6 +1645,27 @@ body::-webkit-scrollbar {
   background-color: #fff;
   padding: 5px;
   border-radius: 5px;
+}
+.custom-form{
+  background-color: #290550;
+}
+.mycustomform{
+  position: absolute;
+  top: 64px;
+  right: 52px;
+   background-color: #0000008a;
+   padding: 20px;
+   border-radius: 15px;
+}
+.custon{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.hed2{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
 }
   .professional-expert .service-form .h3 {
     text-align: center;
