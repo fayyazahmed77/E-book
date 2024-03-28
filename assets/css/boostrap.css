@@ -593,13 +593,37 @@ progress {
     border-radius: 10px;
   }
   .book2{
-
+    position: absolute;
+    top: 481px !important;
+    left: 506px !important;
+    width: 238px !important;
+    height: 336px !important;
+    background-color: #13648b;
+    padding: 14px;
+    border-radius: 10px;
   }
   .book3{
-
+    position: absolute;
+    top: 550px !important;
+    right: 497px !important;
+    width: 238px !important;
+    height: 336px !important;
+    background-color: #0f1b39;
+    padding: 14px;
+    border-radius: 10px;
   }
-  .book3{
-
+  .book4{
+    position: absolute;
+    top: 354px !important;
+    right: 223px !important;
+    width: 238px !important;
+    height: 336px !important;
+    background-color: #135b39;
+    padding: 14px;
+    border-radius: 10px;
+  }
+  .why-img{
+    width: 378px !important;
   }
 }
 .row {
