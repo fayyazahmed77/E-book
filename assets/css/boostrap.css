@@ -625,6 +625,21 @@ progress {
   .why-img{
     width: 378px !important;
   }
+  .inkpot{
+    position: absolute;
+    left: 32px !important;
+    top: 63px;
+  }
+  .inkpot1{
+    z-index: -1;
+    position: absolute;
+    right: 564px !important;
+    top: 209px;
+  }
+  .h-hero{
+    font-size: 90px !important;
+    font-family: initial;
+    }
 }
 .row {
   --bs-gutter-x: 1.5rem;
