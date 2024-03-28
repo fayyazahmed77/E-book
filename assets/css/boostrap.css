@@ -584,10 +584,10 @@ progress {
   }
   .book1{
     position: absolute;
-    top: 396px;
-    left: 262px;
-    width: 238px;
-    height: 336px;
+    top: 402px !important;
+    left: 239px !important;
+    width: 238px !important;
+    height: 330px !important;
     background-color: #ffbb93;
     padding: 14px;
     border-radius: 10px;
