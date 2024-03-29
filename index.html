@@ -23,21 +23,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NBCVR1GRVC"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         
-         function gtag() {
-             dataLayer.push(arguments);
-         }
-         gtag('js', new Date());
-         gtag('config', 'G-NBCVR1GRVC');
-      </script>
-      <script>
-         function openLiveChat() {
-             LiveChatWidget.call("maximize");
-         }
-      </script>
+     
+     
    </head>
    <body>
       <header id="scroll-control">
@@ -334,9 +321,33 @@
       <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <h3>HOW IT WORKS.</h3>
-                <h2>Our Working Process</h2>
-
+                <h6 class="pro">HOW IT WORKS.</h6>
+                <h2 class="pro2">Our Working Process</h2>
+             <div class="process">
+               <div class="step1">
+                  <div class="icon"><img src="/assets/img/step1.png" alt="" srcset=""></div>
+                  <div class="texboth">
+                     <div class="phead">Get Started</div>
+                     <div class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iusto nobis fuga est aut sint! Voluptas minima, eius cum vel eum doloremque </div>
+                  </div>
+               </div>
+               <div class="step1">
+                  <div class="icon"><img src="/assets/img/step2.png" alt="" srcset=""></div>
+                  <div class="texboth">
+                     <div class="phead">Requrement Gathering</div>
+                     <div class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iusto nobis fuga est aut sint! Voluptas minima, eius cum vel eum doloremque </div>
+                  </div>
+               </div>
+               <div class="step1">
+                  <div class="icon"><img src="/assets/img/step3.png" alt="" srcset=""></div>
+                  <div class="texboth">
+                     <div class="phead">Final Approvel</div>
+                     <div class="ppara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iusto nobis fuga est aut sint! Voluptas minima, eius cum vel eum doloremque </div>
+                  </div>
+               </div>
+              
+               
+             </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <div class="myformbg"><img src="/assets/img/formbg.png" alt="" srcset=""></div>
@@ -344,40 +355,58 @@
                     <p class="custon">CUSTOMIZE YOUE PRICE</p>
                     <h2 class="hed2">Custom <span class="dblue"> Order</span> Form.</h2>
                     <form action="" method="post">
-                        <div class="row">
-                           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                              <div class="form-group foot">
-                                 <input type="text" name="" id="" class="form-control" placeholder="Full Nome">
-                              </div>
-                           </div>
-                           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                              <div class="form-group foot">
-                                 <input type="text" name="" id="" class="form-control" placeholder="Phome Number">
-                              </div>
-                           </div>
+                        
+                     <div class="row mt-4">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                              <label for="">Word Count :</label>
+                                <div class="increment-decrement">
+                                    <button type="button" class="btn btn-page sub-page" aria-label="Decrease Page Quantity"><i class="fas fa-minus"></i></button>
+                                    <div class="divider">  </div>
+                                    <input type="text" aria-label="Words Count" name="words_count"  class="form-control words-count" min="250" max="1000" value="250">
+                                    <button type="button" class="btn btn-page add-page" aria-label="Increase Page Quantity"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4">
+                            <div class="form-group">
+                              <label for="">Number of Pages :</label>
+                                <div class="increment-decrement">
+                                    <button type="button" class="btn btn-page sub-page" aria-label="Decrease Page Quantity"><i class="fas fa-minus"></i></button>
+                                    <input aria-label="Number of Pages" type="number" name="number_of_pages" class="form-control page-count counter-number" min="1" max="1000" value="1" required onchange="calculate_price()" onblur="calculate_price()" onkeydown="calculate_price()" onkeyup="calculate_price()" onkeypress="calculate_price()">
+                                    <div class="page">  </div>
+                                    <button type="button" class="btn btn-page add-page" aria-label="Increase Page Quantity"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="row mt-4">
                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                              <div class="form-group foot">
-                                 <input type="text" name="" id="" class="form-control" placeholder="Email Address">
+                              <div class="form-group footv">
+                              <label for="">Your Email :</label>
+                                 <input type="email" name="email" id="" class="form-control" placeholder="Email Address">
                               </div>
                            </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                              <div class="form-group foot">
-                                 <input type="text" name="" id="" class="form-control" placeholder="Subject">
+                              <div class="bootm">
+                                 <h2 class="total">Order Total : <span class="dblue">$1000</span></h2>
+                                 <button class="oddbnt">Order Now</button>
                               </div>
                            </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                              <div class="form-group foot">
-                                 <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                              </div>
+                              <p class="gett">Get in Touch with us ! <a href="">Clik Here</a></p>
                            </div>
+                  
+                        
                         </div>
-                        <input type="submit" value="Send Message" class="mybtn">
                      </form>
                 </div>
             </div>
@@ -659,5 +688,20 @@
              },
          });
       </script>
+      <script>
+         function calculate_price() {
+             var wordsCount = parseInt(document.getElementsByName("words_count")[0].value);
+             var pageCount = parseInt(document.getElementsByName("number_of_pages")[0].value);
+     
+             var pricePerWord = 0.1; // $0.10 per word
+             var wordsTotal = wordsCount * pageCount;
+             var totalPrice = wordsTotal * pricePerWord;
+     
+             document.querySelector('.total .dblue').innerText = '$' + totalPrice.toFixed(2);
+         }
+     
+         // Call the function initially
+         calculate_price();
+     </script>
    </body>
 </html>
