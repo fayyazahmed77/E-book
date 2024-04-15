@@ -543,11 +543,56 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container,
   .container-sm {
     max-width: 540px;
   }
+  .h-hero{
+    font-size: 50px !important;
+  }
+  .bsction{
+    display: none !important;
+  }
+}
+@media (max-width: 390px) {
+  .container,
+  .container-sm {
+    max-width: 390px;
+  }
+  .h-hero{
+    font-size: 50px !important;
+  }
+  .bg-l{
+    display: none;
+  }
+  .bg-y{
+    position: sticky !important;
+  }
+  .wh-y {
+    font-size: 42px;
+    padding: 15px !important;
+    text-align: center;
+}
+.why-img {
+  width: 390px;
+}
+ul.list-unstyled {
+  text-align: left;
+  font-size: 10px;
+}
+.gurantee ul li {
+  font-size: 15px;
+  color: #000000;
+  line-height: 30px;
+  font-weight: 500;
+}
+.bleft {
+  width: 360px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 }
 @media (min-width: 768px) {
   .container,

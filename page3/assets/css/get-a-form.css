@@ -1,0 +1,243 @@
+
+
+
+
+header .navbar {
+    background-color: transparent !important;
+    flex-wrap: wrap;
+}
+ .navbar-collapse {
+     display: none !important;
+ }
+ .hr-line{
+     display: none;
+ }
+.nav2{
+    display: none !important;
+}
+.nav1{
+    display: none !important;
+}
+
+.footer{
+    display: none;
+}
+.order-form {
+
+    background: url(/assets/img/) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 120vh;
+    overflow: hidden;
+}
+
+
+.order-form  .bg-white {
+        border-radius: 10px;
+        border: 1px solid #ffffff7a;
+        margin: 15px 0 0;
+        background-color: white !important;
+        padding: 10px 20px 20px;
+        backdrop-filter: blur(7px);
+}
+
+        .order-form  .bg-white .h1 {
+            font-size: 24px !important;
+            margin-bottom: 0;
+            color: black;
+        }
+
+        hr {
+            margin: 0.5rem 0;
+        }
+
+        .order-form  .bg-white  label {
+            color: #3E3E3E;
+            font-size: 16px;
+            /* font-family: 'cerapro'; */
+        }
+
+        .order-form  .bg-white .form-control {
+            border-radius: 7px;
+            border: unset;
+            margin: 0px 0px 10px;
+            color: rgb(0 0 0 / 62%);
+            /* font-family: 'cerapro'; */
+            border: 1px solid #DFE3E6;
+            padding-left: 0;
+            background-color: #F2F2F2;
+            padding-right: 0;
+            text-indent: 15px;
+            font-size: 14px;
+        }
+
+        .order-form  .bg-white .form-check {
+            color: white;
+        }
+
+        ::-webkit-input-placeholder {
+            color: rgb(0 0 0 / 62%);
+       /* font-family: 'cerapro'; */
+            background-color: #F2F2F2;
+            padding: 0.675rem 0.25rem;
+        }
+
+        :-ms-input-placeholder {
+            color: rgb(0 0 0 / 62%)3;
+       /* font-family: 'cerapro'; */
+            background-color: #F2F2F2;
+            padding: 0.675rem 0.25rem;
+        }
+
+        ::placeholder {
+            color: rgb(0 0 0 / 62%);
+       /* font-family: 'cerapro'; */
+            background-color: #F2F2F2;
+            padding: 0.675rem 0.25rem;
+        }
+
+        select {
+            background-color: black;
+        }
+
+        option:not(:checked) {
+            background: white;
+            color: #000;
+        }
+
+        .order-form  .bg-white  textarea {
+            line-height: 2;
+            text-indent: 20px;
+            padding: 0 0px;
+            resize: none;
+            height: 78px !important;
+
+            &::placeholder {
+                padding: 0.275rem 0.75rem;
+                height: 60px !important;
+            }
+        }
+
+        .order-form  .bg-white  .form-check-label {
+            font-size: 14px;
+       /* font-family: 'cerapro'; */
+            font-weight: 500;
+            margin: 0px 0px;
+            color: black;
+        }
+
+        .order-form  .bg-white .form-check-input {
+            font-size: 20px;
+            border: 1px solid #3A3A3A;
+            background-color: transparent;
+            color: black;
+            filter: invert(1);
+            &[type=radio] {
+                border-radius: 20%;
+            }
+        }
+
+        .form-check-input:checked {
+            background-color: #596127;
+            border-color: #596127;
+            font-size: 20px;
+        }
+
+        .form-check-input:focus {
+            box-shadow: none;
+        }
+
+        .h5 {
+            font-size: 17px !important;
+            color: #3A3A3A;
+            font-weight: bold;
+        }
+
+        .h6 {
+            /* font-family: 'roc-grotesk-medium'; */
+            color: #3A3A3A !important;
+        }
+
+        .label-file {
+            border: 2px dashed #00000073;
+            border-radius: 7px;
+            padding: 15px 15px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .file-box .file-text {
+            color: black;
+            font-size: 12px;
+            display: flex;
+       /* font-family: 'cerapro'; */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .file-box .file-text i {
+                font-size: 20px;
+                color: #596127;
+                margin-right: 10px;
+            }
+
+            .file-box .file-text  .text-area {
+                text-align: left;
+                padding: 0px 30px 0px;
+            }
+
+            .file-box .file-text   .h5 {
+                    font-size: 14px !important;
+                    margin-bottom: 0;
+                }
+ 
+
+        .upload-text {
+            color: #3E3E3E;
+            display: block;
+            margin: 15px 0px;
+            font-size: 13px;
+       /* font-family: 'cerapro'; */
+        }
+
+        .pdf-text {
+            color: #3e3e3e59;
+            font-size: 14px;
+            display: block;
+       /* font-family: 'cerapro'; */
+        }
+
+        .h-auto {
+            background: transparent;
+        }
+
+        
+        .label-1 {
+            /* font-family: 'cerapro'; */
+            color: #3E3E3E;
+        }
+    
+    
+    .btn-order {
+        width: 180px !important;
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    .copyrights {
+        padding: 10px 0 0;
+        border-top: 1px solid #fff;
+
+        p {
+            color: black;
+        }
+
+        img {
+            margin-left: auto;
+        }
+    }
+
+
+
+
