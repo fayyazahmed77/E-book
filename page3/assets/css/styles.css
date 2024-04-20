@@ -806,7 +806,7 @@ body::-webkit-scrollbar {
     z-index: 2;
   }
   header .navbar {
-    background-color: #ecfbff;
+    background-color: #fff;
     flex-wrap: wrap;
     padding: 24px 0px;
   }
@@ -966,10 +966,15 @@ body::-webkit-scrollbar {
   .mainbox{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
+  p.spr {
+    font-size: 20px;
+    width: 510px;
+}
   .btnbox{
     display: flex;
+    justify-content: center;
     padding: 1px 92px;
   }
   .mainpara{
@@ -1017,17 +1022,17 @@ input{
   width: 472px;
 }
   .btn-about {
-    border: 1px solid #ffffff;
+    border: 1px solid #000066;
     font-size: 16px;
-    color: #ffffff;
+    color: #000066;
     border-radius: 6px;
     padding: 10px 27px;
     font-weight: 500;
 }
   .btn-about:hover {
-    border: 1px solid #ffffff;
+    border: 1px solid #000066;
     font-size: 16px;
-    color: #82b6ff;
+    color: #000066;
     border-radius: 6px;
     padding: 10px 27px;
     font-weight: 500;
@@ -1173,7 +1178,7 @@ input{
   }
   
   .google-brand {
-    background-color: #fff;
+    background-color: #01357e;
     padding: 30px 0px;
   }
   .gootit{
@@ -1569,10 +1574,15 @@ input{
   }
   
   section.about-bg {
-    background: #01357e;
+    height: 835px;
+    background-size: cover;
+    background-image: url('../img/b1.jpg');
     padding-top: 150px;
   }
-  
+  .mpr{
+     font-size: 82px;
+     color: #000;
+  }
   .our-journey {
     background-color: #fff;
   }
@@ -1638,7 +1648,7 @@ input{
   }
   
   .facts {
-    background-color: #fee9e8;
+    background-color: #02367f;
     padding: 50px 0;
   }
   .facts .fac-box {
