@@ -1572,7 +1572,86 @@ input{
   .our-expert {
     background-color: #fff;
   }
-  
+  @media (min-width: 1200px) {
+    section.about-bg {
+      height: 670px !important;
+    }
+    .mpr{
+      font-size: 69px;
+      color: #000;
+   }
+  }
+  @media (max-width: 576px) {
+    section.about-bg {
+      height: 600px !important;
+    }
+    .mpr {
+      font-size: 47px !important;
+      color: #000;
+  }
+  .btnbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 30px;
+  }
+  .about__pic__item{
+    margin: 5px !important;
+    width: 185px !important;
+    height: 185px !important;
+  }
+  .facts .fac-box span.h3 {
+    font-size: 25px !important;
+}
+.facts .fac-box .e-text {
+  font-size: 12px !important;
+}
+  .sce2 {
+    font-family: "Noto Sans Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px !important;
+}
+.pl {
+  padding-left: 1px !important;
+}
+.btn-live {
+  border: 1px solid #b83906;
+  font-size: 16px;
+  color: #b83906;
+  border-radius: 5px;
+  padding: 6px 40px;
+  font-weight: 500;
+  width: 100%;
+}
+img.cookb1 {
+ width: 351px;
+}
+.sce22 {
+  font-size: 37px !important;
+}
+.testimonial-block .inner-box{
+  padding: 5px !important;
+}
+.testimonial-block {
+  padding: 5px !important;
+}
+.owl-carousel {
+  z-index: 10 !important;
+}
+
+  .testimonial-carousel {
+    margin: 0px !important;
+  }
+  .footerform {
+    top: 50px;
+    right: 2px;
+    position: absolute;
+    width: 423px;
+    background-color: #B83906;
+    padding: 20px;
+    border-radius: 10px;
+}
+}
   section.about-bg {
     height: 835px;
     background-size: cover;

@@ -1576,7 +1576,71 @@ color: #6f51c4;
   .our-expert {
     background-color: #fff;
   }
-  
+  @media (min-width: 1200px) {
+    section.about-bg {
+      height: 650px !important;
+      padding-top: 132px !important;
+    }
+    .boxcontainer{
+      justify-items: center;
+    }
+  }
+  @media (max-width: 576px) {
+    section.about-bg {
+      height: 676px;
+      padding-top: 85px !important;
+    }
+    .mpr{
+      font-size: 59px !important;
+    }
+    .btnbox {
+      display: flex;
+      justify-content: space-between;
+  }
+  .about.bgfull {
+    padding: 0px !important;
+  }
+  .footerform {
+    top: 50px;
+    right: 5px;
+    position: absolute;
+    width: 379px;
+    background-color: #a9a5a4c4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inkpot1 {
+  z-index: -1;
+  position: absolute;
+  right: 212px;
+  top: 25px;
+}
+.sce22 {
+  font-size: 30px !important;
+}
+.btn-live {
+  border: 1px solid #eb8359;
+  font-size: 16px;
+  color: #c54c1c;
+  border-radius: 6px;
+  padding: 6px 40px;
+  font-weight: 500;
+  width: 100%;
+}
+.boxcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+img.img20k {
+  height: 42px !important;
+  width: 84px !important;
+}
+img.img10k {
+  width: 71px !important;
+}
+  }
   section.about-bg {
     height: 835px;
     background-size: cover;
