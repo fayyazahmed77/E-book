@@ -1283,6 +1283,28 @@ body::-webkit-scrollbar {
     position: absolute;
     left: 38%;
   }
+  @media (max-width: 576px) {
+    .footerform {
+      top: 50px;
+      right: 5px !important;
+      position: absolute;
+      width: 419px !important;
+      background-color: #1d4195;
+      padding: 20px;
+      border-radius: 10px;
+  }
+  .inkpot{
+    display: none;
+  }
+  .mycustomform {
+    width: 400px !important;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 11px;
+}
+
+
+  }
   .footerform{
     top: 50px;
     right: 200px;

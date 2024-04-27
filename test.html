@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Light Grid</title>
+
+  <style>
+    .grid-container {
+      position: relative; /* Add position relative */
+      display: grid;
+      grid-template-columns: repeat(10, 20px); /* Adjust columns as needed */
+      grid-template-rows: repeat(10, 20px); /* Adjust rows as needed */
+      width: 200px; /* Adjust total width as needed */
+      height: 200px; /* Adjust total height as needed */
+    }
+
+    .grid-item {
+      background-color: #ffffff; /* Initial color */
+      border: 1px dashed #000000; /* Border for each grid item */
+      width: 20px; /* Adjust width as needed */
+      height: 20px; /* Adjust height as needed */
+    }
+
+    .dot {
+      position: absolute;
+      width: 7px; /* Adjust circle size as needed */
+      height: 7px; /* Adjust circle size as needed */
+      border: 1px solid #000000; /* Add border */
+      border-radius: 50%; /* Make it a circle */
+      left: 50%; /* Center horizontally */
+      top: 50%; /* Center vertically */
+      transform: translate(-50%, -50%); /* Center the circle */
+      background-color: transparent; /* Transparent background */
+    }
+
+    .dashed-line {
+      position: absolute;
+      background-color: transparent;
+      border: none;
+      width: 20px; /* Adjust width as needed */
+      height: 20px; /* Adjust height as needed */
+      z-index: -1;
+    }
+
+    .dashed-line.horizontal {
+      border-top: 1px dashed #000000;
+      top: 0; /* Align with top of grid item */
+    }
+
+    .dashed-line.vertical {
+      border-left: 1px dashed #000000;
+      left: 0; /* Align with left of grid item */
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container" id="gridContainer">
+    <!-- Grid items will be dynamically generated here -->
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const gridContainer = document.getElementById('gridContainer');
+
+      // Create grid items
+      for (let i = 0; i < 100; i++) { // 10x10 grid, adjust as needed
+        const gridItem = document.createElement('div');
+        gridItem.classList.add('grid-item');
+        gridContainer.appendChild(gridItem);
+      }
+
+      // Add dashed lines and circles
+      for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+          const dot = document.createElement('div');
+          dot.classList.add('dot');
+          dot.style.left = `${(i + 1) * 20}px`;
+          dot.style.top = `${(j + 1) * 20}px`;
+          gridContainer.appendChild(dot);
+
+          const horizontalLine = document.createElement('div');
+          horizontalLine.classList.add('dashed-line', 'horizontal');
+          horizontalLine.style.left = `${(i + 1) * 20}px`;
+          horizontalLine.style.top = `${(j + 1) * 20}px`;
+          gridContainer.appendChild(horizontalLine);
+
+          const verticalLine = document.createElement('div');
+          verticalLine.classList.add('dashed-line', 'vertical');
+          verticalLine.style.left = `${(i + 1) * 20}px`;
+          verticalLine.style.top = `${(j + 1) * 20}px`;
+          gridContainer.appendChild(verticalLine);
+        }
+      }
+    });
+  </script>
+</body>
+</html>
